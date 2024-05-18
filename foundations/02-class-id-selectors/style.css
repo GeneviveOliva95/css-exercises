@@ -1,13 +1,13 @@
-/* styles.css */
-
 .odd {
     background-color: rgb(255,192,203);
-    font-family: verdana, "DejaVu Sans", sans-serif;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
 .font-size-adjustment {
     font-size: 24px;
 }
+
+/*The third element and the fourth element both require a 24px font size, therefore, adding a class element to the fourth element with the same class element (font-size-adjustment) from the third element negates the need for another declaration to adjust the font size in the fourth element*/
 
 #two {
     color: rgb(44, 44, 185);
@@ -16,6 +16,5 @@
 
 #four {
     background-color: #32cd32;
-    font-size: 24px; 
     font-weight: bold;
 }
