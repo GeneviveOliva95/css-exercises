@@ -49,4 +49,15 @@ button {
 .button-container {
   margin-top: 8px;
   padding: 8px;
+  width: 384.006px;
+  text-align: center;
+}
+
+button {
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 24px;
+  padding-left: 24px; 
+  margin: 0px auto;
 }
