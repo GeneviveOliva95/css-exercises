@@ -28,12 +28,14 @@ a {
 
 .header {
   display: flex;
-  flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
 }
 
 ul {
-  padding: 0px;
+  padding: 0px; 
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
 }
