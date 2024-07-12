@@ -51,7 +51,7 @@ ul {
 
 ul {
   display: flex;
-  gap: 20px;
+  gap: 16px;
   padding: 0px;
   margin: 0px;
 }
@@ -60,12 +60,18 @@ ul {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  padding-left: 10px;
+  padding: 8px;
 }
 
 .left-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  gap: 16px;
+}
+
+.right-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
 }
