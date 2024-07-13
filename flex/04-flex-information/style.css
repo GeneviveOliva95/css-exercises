@@ -24,3 +24,12 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/*Changes past this point*/
+
+.title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
+}
+
