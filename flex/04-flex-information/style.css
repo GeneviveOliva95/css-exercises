@@ -33,8 +33,7 @@ img {
   padding-bottom: 32px;
 }
 
-.images {
+.items {
   display: flex;
-  width: 200px;
+  justify-content: space-around;
 }
-
