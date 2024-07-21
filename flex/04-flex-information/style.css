@@ -35,8 +35,8 @@ img {
 
 .items {
   display: flex;
-  justify-content: space-around;
-  gap: 52px;
+  justify-content: center;
+  column-gap: 52px;
   text-align: center;
 }
 
@@ -44,5 +44,6 @@ img {
 .image-two,
 .image-three, 
 .image-four {
+  width: 200px;
   flex-wrap: wrap;
 }
