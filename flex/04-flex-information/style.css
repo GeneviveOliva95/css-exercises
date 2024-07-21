@@ -39,3 +39,10 @@ img {
   gap: 52px;
   text-align: center;
 }
+
+.image-one,
+.image-two,
+.image-three, 
+.image-four {
+  flex-wrap: wrap;
+}
