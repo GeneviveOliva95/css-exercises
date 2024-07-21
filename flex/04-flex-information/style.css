@@ -27,23 +27,23 @@ img {
 
 /*Changes past this point*/
 
+body {
+  text-align: center;
+}
 .title {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .items {
   display: flex;
   justify-content: center;
   column-gap: 52px;
-  text-align: center;
 }
 
 .image-one,
 .image-two,
 .image-three, 
 .image-four {
-  width: 200px;
+  max-width: 200px;
   flex-wrap: wrap;
 }
