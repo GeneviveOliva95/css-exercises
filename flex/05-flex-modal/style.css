@@ -67,3 +67,9 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/*Changes past this point*/
+
+.modal{
+  padding: 15px;
+}
