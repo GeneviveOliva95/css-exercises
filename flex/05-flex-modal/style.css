@@ -70,21 +70,25 @@ button.cancel {
 
 /*Changes past this point*/
 
-.modal{
+.modal {
   padding: 15px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.icon {
+.icon,
+.close-button {
   display: flex;
   flex-shrink: 0;
 }
 
-.items {
-  display: flex;
-  gap: 15px;
+.header,
+.text {
+  margin-bottom: 15px;
 }
 
-.words {
-  display: flex;
-  flex-direction: column;
+.icon {
+  margin-right: 20px;
 }
+
+
