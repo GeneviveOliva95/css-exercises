@@ -73,7 +73,10 @@ button.cancel {
 .modal {
   padding: 15px;
   display: flex;
-  justify-content: space-between;
+}
+
+.header {
+  font-size: 20px;
 }
 
 .icon,
@@ -82,13 +85,8 @@ button.cancel {
   flex-shrink: 0;
 }
 
-.header,
-.text {
-  margin-bottom: 15px;
+.column-items {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
 }
-
-.icon {
-  margin-right: 15px;
-}
-
-
