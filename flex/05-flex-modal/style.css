@@ -88,5 +88,11 @@ button.cancel {
 .column-items {
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
+  gap: 15px;
+  margin-left: 15px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
 }
