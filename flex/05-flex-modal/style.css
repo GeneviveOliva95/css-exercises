@@ -71,17 +71,15 @@ button.cancel {
 /*Changes past this point*/
 
 .modal {
-  padding: 15px;
   display: flex;
+  padding: 15px;
 }
 
 .header {
   font-size: 20px;
 }
 
-.icon,
-.close-button {
-  display: flex;
+.icon {
   flex-shrink: 0;
 }
 
