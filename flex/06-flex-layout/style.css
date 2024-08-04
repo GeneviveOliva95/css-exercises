@@ -32,3 +32,11 @@ input {
   flex-direction: column;
   align-items: center;
 }
+
+button {
+  padding: 10px;
+}
+
+.buttons {
+  margin-top: 15px;
+}
