@@ -40,3 +40,9 @@ button {
 .buttons {
   margin-top: 15px;
 }
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
