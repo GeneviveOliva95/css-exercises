@@ -29,8 +29,27 @@ input {
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 15px;
+  display: flex;
+  space-between;
+  gap: 17px;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+a {
+  color: rgb(92, 92, 92);
+  text-decoration: none;
 }
 
 button {
