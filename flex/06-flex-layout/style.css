@@ -44,7 +44,6 @@ ul {
   margin: 0px;
   padding: 17px;
   display: flex;
-  space-between;
   gap: 15px;
 }
 
