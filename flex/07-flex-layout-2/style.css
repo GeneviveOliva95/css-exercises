@@ -36,6 +36,13 @@ body {
   flex-direction: column;
 }
 
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  justify-content: center;
+  padding-left: 16px;
+}
+
 .center {
   display: flex;
 }
