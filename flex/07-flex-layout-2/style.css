@@ -30,22 +30,25 @@ body {
 
 /*Changes made past this point*/
 
-.header,
-.footer {
+body {
   display: flex;
   flex-direction: column;
 }
 
 .header {
+  display: flex;
   font-size: 32px;
   font-weight: 900;
-  justify-content: center;
+  align-items: center;
   padding-left: 16px;
 }
 
 .footer {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: auto;
 }
 .center {
   display: flex;
