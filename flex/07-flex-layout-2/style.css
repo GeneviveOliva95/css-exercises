@@ -57,6 +57,10 @@ a {
   font-size: 24px;
 }
 
+li {
+  list-style-type: none;
+}
+
 .sidebar {
   display: flex;
   width: 300px;
