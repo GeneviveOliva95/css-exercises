@@ -74,3 +74,8 @@ li {
 .text {
   padding: 48px;
 }
+
+.card {
+  height: 200px;
+  width: 300px;
+}
