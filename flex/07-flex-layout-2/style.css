@@ -77,9 +77,11 @@ li {
   display: flex;
   flex-wrap: wrap;
   padding: 48px;
+  gap: 40px;
 }
 
 .card {
   height: 200px;
   width: 300px;
+  padding: 20px;
 }
