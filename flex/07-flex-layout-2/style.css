@@ -72,6 +72,8 @@ li {
 }
 
 .text {
+  display: flex;
+  flex-wrap: wrap;
   padding: 48px;
 }
 
